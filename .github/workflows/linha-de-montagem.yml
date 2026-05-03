@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: 1. Pegar o chassi do carro (código-fonte)
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         
       - name: 1.5. Fabricar o produto
         run: echo "Este é o nosso produto final!" > produto.txt
