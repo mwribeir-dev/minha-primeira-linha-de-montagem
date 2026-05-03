@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-    build-e-teste:
+  build-e-teste:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,3 @@ jobs:
 
       - name: 3. Estação de Teste (Controle de Qualidade)
         run: echo "Rodando os testes automatizados... Verificando se a porta abre e fecha!"
-
-        
-  
-    
